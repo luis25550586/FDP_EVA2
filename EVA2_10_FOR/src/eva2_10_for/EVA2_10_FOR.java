@@ -46,6 +46,16 @@ public class EVA2_10_FOR {
         for (int i = n1; i <= n2;i++){
             System.out.println(i);
         }
+        System.out.println("");
+        
+        int N1, N2;
+        System.out.println("Dame un numero: ");
+        N1 = captu.nextInt();
+        System.out.println("Dame otro numero: ");
+        N2 = captu.nextInt();
+        for (int i = N1; i >= N2;i--){
+            System.out.println(i);
+        }
     }
     
 }
